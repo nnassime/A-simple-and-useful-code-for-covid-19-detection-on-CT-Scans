@@ -87,9 +87,8 @@ print(len(os.listdir('/tmp/Covid-v-Non/training/Non/')))
 print(len(os.listdir('/tmp/Covid-v-Non/validation/Covid/')))
 print(len(os.listdir('/tmp/Covid-v-Non/validation/Non/')))
 
-"""*texte en italique*# Download Model : MobileNetV2 or NAS"""
+"""*texte en italique*# Download Model : DenseNet or NAS"""
 
-from keras.applications.mobilenet_v2 import MobileNetV2
 from keras.applications.densenet import DenseNet121
 
 IMG_SIZE = 224 # All images will be resized to 150x150
